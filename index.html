@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自費營養點滴優化建議調查海報</title>
+    <title>自費靜脈營養點滴優化建議調查海報</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
@@ -28,7 +28,7 @@
         <!-- Header -->
         <div class="gradient-bg p-8 text-center text-white">
             <h2 class="text-lg font-medium opacity-90 mb-2">院內臨床服務優化</h2>
-            <h1 class="text-3xl md:text-4xl font-bold tracking-wider mb-4">自費營養點滴使用現況<br class="md:hidden">與優化建議調查</h1>
+            <h1 class="text-3xl md:text-4xl font-bold tracking-wider mb-4">自費靜脈營養點滴使用現況<br class="md:hidden">與優化建議調查</h1>
             <p class="max-w-2xl mx-auto text-sky-100 leading-relaxed">
                 感謝醫師同仁長期的支持。我們近期已針對點滴品項進行全面升級，為了解第一線執行狀況，誠摯邀請您提供寶貴意見。
             </p>
@@ -45,7 +45,7 @@
                 <div class="h-px bg-sky-200 flex-grow"></div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <!-- Point 1 -->
                 <div class="card p-6 bg-sky-50 rounded-2xl border border-sky-100 flex items-start space-x-4">
                     <div class="bg-sky-600 p-3 rounded-xl text-white shadow-md">
@@ -90,6 +90,23 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Resource Link Section -->
+            <div class="mt-4 p-6 bg-amber-50 rounded-2xl border border-amber-200 flex flex-col md:flex-row items-center justify-between">
+                <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                    <div class="bg-amber-500 p-2 rounded-lg text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-amber-900">臨床參考資源</h4>
+                        <p class="text-amber-800 text-sm">全院營養點滴醫令碼對照表</p>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/drive/folders/1HLDtfLa-0DLaWBe_88X8aZkxGdQXzCPc?usp=drive_link" target="_blank" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded-full font-bold shadow-md transition duration-200 flex items-center">
+                    查看醫令碼
+                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+            </div>
         </div>
 
         <!-- CTA Section / QR Code -->
@@ -104,7 +121,6 @@
             
             <div class="flex flex-col items-center">
                 <div class="bg-white p-4 rounded-2xl shadow-lg border border-gray-100">
-                    <!-- Placeholder for QR Code - User can paste their specific QR here -->
                     <div class="w-32 h-32 bg-gray-100 flex items-center justify-center overflow-hidden rounded-lg">
                          <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://forms.gle/sWvwhGkrFKnXroe59" alt="QR Code" class="w-full h-full">
                     </div>
